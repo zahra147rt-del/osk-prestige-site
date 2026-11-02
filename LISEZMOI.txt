@@ -1,0 +1,49 @@
+SITE O.S.K PRESTIGE – GUIDE DE MISE EN LIGNE
+=============================================
+
+Ce dossier est un site complet, prêt à être mis en ligne (aucune installation nécessaire).
+Pages : accueil, ménage à domicile, nettoyage de bureaux, repassage à domicile,
+crédit d'impôt, à propos / questions fréquentes, contact, mentions légales.
+
+1) À FAIRE AVANT LA MISE EN LIGNE
+---------------------------------
+a. Nom de domaine : le site utilise l'adresse provisoire  https://www.osk-prestige.fr
+   Si le vrai domaine est différent, remplacez-la dans tous les fichiers .html, sitemap.xml
+   et robots.txt (rechercher / remplacer dans un éditeur de texte).
+   Sur Mac/Linux :  sed -i 's#https://www.osk-prestige.fr#https://VOTRE-DOMAINE#g' *.html *.xml *.txt
+
+b. Mentions légales (mentions-legales.html) : compléter les zones « À COMPLÉTER »
+   (forme juridique, adresse, SIRET, hébergeur, responsable). Puis retirer la ligne
+   <meta name="robots" content="noindex, follow"> de cette page si vous voulez qu'elle soit indexée.
+
+c. Textes à faire relire par la cliente : prestations incluses, produits fournis ou non,
+   devis gratuit, annulation, liste des communes desservies (variable dans le site : Grenoble,
+   Échirolles, Saint-Martin-d'Hères, Fontaine, Seyssinet-Pariset, Meylan, Eybens, Saint-Égrève,
+   Sassenage, La Tronche).
+
+d. Crédit d'impôt : à n'afficher que si l'entreprise est bien déclarée « services à la personne »
+   et peut remettre l'attestation fiscale. Sinon, supprimer les mentions « crédit d'impôt ».
+
+2) HÉBERGEMENT
+--------------
+Le site est statique : un hébergement simple suffit (OVH, Netlify, Cloudflare Pages, GitHub Pages...).
+Envoyez tout le contenu du dossier à la racine du site (index.html doit être à la racine).
+
+3) FORMULAIRE
+-------------
+Le bouton du formulaire ouvre la messagerie du visiteur avec un e-mail pré-rempli.
+Pour recevoir les demandes directement, on peut le brancher sur un service de formulaire.
+
+4) RÉFÉRENCEMENT : LES 5 ÉTAPES APRÈS LA MISE EN LIGNE
+------------------------------------------------------
+1. Créer la fiche Google Business Profile (gratuit), la remplir complètement
+   (services, zone d'intervention, téléphone, site, photos) et demander des avis aux premiers clients.
+2. Ajouter le site dans Google Search Console, puis envoyer https://VOTRE-DOMAINE/sitemap.xml
+3. Garder les mêmes nom, téléphone et e-mail partout (site, fiche Google, Facebook, annuaires).
+4. S'inscrire dans quelques annuaires locaux (Pages Jaunes, Yelp, annuaires de services à la personne).
+5. Ajouter des photos réelles de prestations et des avis clients quand ils existent.
+
+Le site contient déjà : un titre et une description propres à chaque page, une adresse canonique,
+le balisage « entreprise locale » (LocalBusiness), un plan du site (sitemap.xml), robots.txt,
+une image de partage, des polices hébergées avec le site (aucun appel à Google Fonts)
+et aucun cookie de suivi (pas de bandeau de cookies nécessaire).
