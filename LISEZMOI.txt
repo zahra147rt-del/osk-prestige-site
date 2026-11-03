@@ -2,7 +2,7 @@ SITE O.S.K PRESTIGE – GUIDE DE MISE EN LIGNE
 =============================================
 
 Ce dossier est un site complet, prêt à être mis en ligne (aucune installation nécessaire).
-Pages : accueil, ménage à domicile, nettoyage de bureaux, repassage à domicile,
+Pages : accueil, ménage à domicile, nettoyage de bureaux, nettoyage de fin de chantier, repassage à domicile,
 crédit d'impôt, à propos / questions fréquentes, contact, mentions légales.
 
 1) À FAIRE AVANT LA MISE EN LIGNE
@@ -12,8 +12,10 @@ a. Nom de domaine : le site utilise l'adresse provisoire  https://www.osk-presti
    et robots.txt (rechercher / remplacer dans un éditeur de texte).
    Sur Mac/Linux :  sed -i 's#https://www.osk-prestige.com#https://VOTRE-DOMAINE#g' *.html *.xml *.txt
 
-b. Mentions légales (mentions-legales.html) : compléter les zones « À COMPLÉTER »
-   (forme juridique, adresse, SIRET, hébergeur, responsable). Puis retirer la ligne
+b. Mentions légales (mentions-legales.html) : elles sont renseignées (exploitante, SIREN, TVA, hébergeur,
+   données personnelles). Il reste à ajouter, quand vous les aurez : l'adresse du siège, le médiateur de la
+   consommation et le numéro de déclaration « services à la personne ». Repérez dans le fichier les
+   commentaires « À AJOUTER » : ils indiquent où les placer. Puis retirez la ligne
    <meta name="robots" content="noindex, follow"> de cette page si vous voulez qu'elle soit indexée.
 
 c. Textes à faire relire par la cliente : prestations incluses, produits fournis ou non,
@@ -31,6 +33,9 @@ Envoyez tout le contenu du dossier à la racine du site (index.html doit être �
 3) FORMULAIRE : RECEVOIR LES DEMANDES PAR E-MAIL
 ------------------------------------------------
 Le formulaire utilise le service gratuit Web3Forms (250 envois par mois, sans compte).
+La clé d'accès est déjà renseignée dans script.js (ligne  var KEY = "..."). Les étapes a à c ne servent
+que si vous devez la changer. Après toute modification, augmentez le numéro ?v=... dans les pages
+(ou demandez-le) pour forcer les navigateurs à recharger les fichiers.
 a. Allez sur https://web3forms.com, saisissez osk.prestige@hotmail.com : une clé d'accès arrive par e-mail.
 b. Ouvrez script.js, repérez la ligne   var KEY = "VOTRE_CLE_WEB3FORMS";
    et remplacez VOTRE_CLE_WEB3FORMS par votre clé (garder les guillemets).

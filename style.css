@@ -155,6 +155,12 @@ footer p{margin:0 0 8px;color:#c9d3ea;font-size:15px}
 .statut.ok{color:#9fe3b0}
 .statut.ko{color:#ffb4a8}
 .hours{margin:-8px 0 20px 68px;color:#d4dcee;font-size:15px}
+header .btn{white-space:nowrap;flex:none}
+.tabs a{padding:0 10px;font-size:13.5px}
+@media (min-width:901px) and (max-width:1100px){
+  header .btn{display:none}
+  .tabs{margin-left:auto}
+}
 .callbar{display:none}
 @media (max-width:900px){
   header .wrap{flex-wrap:wrap;min-height:66px}
