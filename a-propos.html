@@ -18,13 +18,15 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/montserrat-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.className+=' js'</script>
 </head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header>
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="O.S.K Prestige, retour à l’accueil"><img src="images/logo-entete.jpg" width="120" height="44" alt="O.S.K Prestige"></a>
-    <nav class="tabs" aria-label="Menu principal"><a href="menage-domicile-grenoble.html">Ménage à domicile</a><a href="nettoyage-bureaux-grenoble.html">Bureaux</a><a href="repassage-domicile-grenoble.html">Repassage</a><a href="credit-impot-services-a-la-personne.html">Crédit d’impôt</a><a href="a-propos.html" aria-current="page">À propos</a><a href="contact.html">Contact</a></nav>
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav class="tabs" id="menu" aria-label="Menu principal"><a href="menage-domicile-grenoble.html">Ménage à domicile</a><a href="nettoyage-bureaux-grenoble.html">Bureaux</a><a href="repassage-domicile-grenoble.html">Repassage</a><a href="credit-impot-services-a-la-personne.html">Crédit d’impôt</a><a href="a-propos.html" aria-current="page">À propos</a><a href="contact.html">Contact</a></nav>
     <a class="btn fill" href="tel:+33699536022">06 99 53 60 22</a>
   </div>
 </header>
@@ -50,7 +52,7 @@
 <section class="tint"><div class="wrap">
 <h2>Questions fréquentes</h2>
 <p class="kicker">Tout ce qu’il faut savoir avant de commencer</p>
-<div class="faq"><details><summary>Le devis est-il gratuit ?</summary><p>Oui, le devis est gratuit et sans engagement. Il détaille les prestations, la fréquence et le prix.</p></details><details><summary>Dans quelles communes intervenez-vous ?</summary><p>À Grenoble et alentours. Indiquez-nous votre adresse, nous confirmons rapidement que nous intervenons chez vous.</p></details><details><summary>Dois-je être présent pendant l’intervention ?</summary><p>Pas nécessairement. Nous convenons ensemble de la meilleure organisation, par exemple la remise des clés ou l’accès au local.</p></details><details><summary>Qui fournit les produits et le matériel ?</summary><p>Vous nous indiquez votre préférence lors du devis : nous pouvons apporter nos produits ou utiliser les vôtres.</p></details><details><summary>Puis-je décaler ou annuler une intervention ?</summary><p>Oui. Prévenez-nous le plus tôt possible par téléphone ou par message, et nous trouvons ensemble une autre date.</p></details><details><summary>Intervenez-vous pour les professionnels ?</summary><p>Oui : bureaux, cabinets, agences et petits locaux professionnels, avec des horaires adaptés à votre activité.</p></details><details><summary>Comment bénéficier du crédit d’impôt ?</summary><p>Il concerne les particuliers, selon leur situation. Nous vous remettons l’attestation fiscale nécessaire pour votre déclaration de revenus.</p></details></div>
+<div class="faq"><details><summary>Le devis est-il gratuit ?</summary><p>Oui, le devis est gratuit et sans engagement. Il détaille les prestations, la fréquence et le prix.</p></details><details><summary>Dans quelles communes intervenez-vous ?</summary><p>Dans la vallée du Grésivaudan (Crolles, Saint-Ismier, Saint-Nazaire-les-Eymes…) et dans la région grenobloise (Meylan, Claix, Grenoble…). Indiquez-nous votre adresse, nous confirmons rapidement que nous intervenons chez vous.</p></details><details><summary>Dois-je être présent pendant l’intervention ?</summary><p>Pas nécessairement. Nous convenons ensemble de la meilleure organisation, par exemple la remise des clés ou l’accès au local.</p></details><details><summary>Qui fournit les produits et le matériel ?</summary><p>Vous nous indiquez votre préférence lors du devis : nous pouvons apporter nos produits ou utiliser les vôtres.</p></details><details><summary>Puis-je décaler ou annuler une intervention ?</summary><p>Oui. Prévenez-nous le plus tôt possible par téléphone ou par message, et nous trouvons ensemble une autre date.</p></details><details><summary>Intervenez-vous pour les professionnels ?</summary><p>Oui : bureaux, cabinets, agences et petits locaux professionnels, avec des horaires adaptés à votre activité.</p></details><details><summary>Comment bénéficier du crédit d’impôt ?</summary><p>Il concerne les particuliers, selon leur situation. Nous vous remettons l’attestation fiscale nécessaire pour votre déclaration de revenus.</p></details></div>
 <p class="note">* Crédit d’impôt de 50 % des sommes versées pour les services à la personne, dans les limites et conditions fixées par la loi en vigueur.</p>
 </div></section>
 <section class="tint"><div class="wrap" style="text-align:center">
@@ -78,13 +80,13 @@
       </div>
       <div>
         <h2>Zone d’intervention</h2>
-        <ul><li>Grenoble</li><li>Échirolles</li><li>Saint-Martin-d’Hères</li><li>Fontaine</li><li>Seyssinet-Pariset</li><li><a href="contact.html">Et alentours…</a></li></ul>
+        <ul><li>Crolles</li><li>Saint-Ismier</li><li>Saint-Nazaire-les-Eymes</li><li>Meylan</li><li>Claix</li><li>Grenoble</li><li><a href="contact.html">Et alentours…</a></li></ul>
       </div>
     </div>
     <p class="copy">© 2026 O.S.K Prestige – Grenoble et alentours · <a href="a-propos.html">À propos</a> · <a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a></p>
   </div>
 </footer>
 <div class="callbar"><a class="c1" href="tel:+33699536022">Appeler</a><a class="c2" href="contact.html">Devis gratuit</a></div>
-
+<script src="script.js" defer></script>
 </body>
 </html>

@@ -17,9 +17,8 @@ b. Mentions légales (mentions-legales.html) : compléter les zones « À COMPL�
    <meta name="robots" content="noindex, follow"> de cette page si vous voulez qu'elle soit indexée.
 
 c. Textes à faire relire par la cliente : prestations incluses, produits fournis ou non,
-   devis gratuit, annulation, liste des communes desservies (variable dans le site : Grenoble,
-   Échirolles, Saint-Martin-d'Hères, Fontaine, Seyssinet-Pariset, Meylan, Eybens, Saint-Égrève,
-   Sassenage, La Tronche).
+   devis gratuit, annulation, liste des communes desservies (page d'accueil, page Contact, encadré « Zone d'intervention »
+   des pages services, pied de page, question fréquente sur les communes).
 
 d. Crédit d'impôt : à n'afficher que si l'entreprise est bien déclarée « services à la personne »
    et peut remettre l'attestation fiscale. Sinon, supprimer les mentions « crédit d'impôt ».

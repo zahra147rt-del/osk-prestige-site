@@ -1,4 +1,15 @@
 (function () {
+  var b = document.querySelector(".burger"), m = document.getElementById("menu");
+  if (!b || !m) return;
+  function set(open) {
+    m.classList.toggle("open", open);
+    b.setAttribute("aria-expanded", open ? "true" : "false");
+    b.setAttribute("aria-label", open ? "Fermer le menu" : "Ouvrir le menu");
+  }
+  b.addEventListener("click", function () { set(!m.classList.contains("open")); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") set(false); });
+})();
+(function () {
   var f = document.getElementById("devis");
   if (!f) return;
   f.addEventListener("submit", function (e) {

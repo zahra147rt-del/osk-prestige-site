@@ -18,13 +18,15 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/montserrat-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.className+=' js'</script>
 </head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header>
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="O.S.K Prestige, retour à l’accueil"><img src="images/logo-entete.jpg" width="120" height="44" alt="O.S.K Prestige"></a>
-    <nav class="tabs" aria-label="Menu principal"><a href="menage-domicile-grenoble.html">Ménage à domicile</a><a href="nettoyage-bureaux-grenoble.html">Bureaux</a><a href="repassage-domicile-grenoble.html">Repassage</a><a href="credit-impot-services-a-la-personne.html">Crédit d’impôt</a><a href="a-propos.html">À propos</a><a href="contact.html" aria-current="page">Contact</a></nav>
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav class="tabs" id="menu" aria-label="Menu principal"><a href="menage-domicile-grenoble.html">Ménage à domicile</a><a href="nettoyage-bureaux-grenoble.html">Bureaux</a><a href="repassage-domicile-grenoble.html">Repassage</a><a href="credit-impot-services-a-la-personne.html">Crédit d’impôt</a><a href="a-propos.html">À propos</a><a href="contact.html" aria-current="page">Contact</a></nav>
     <a class="btn fill" href="tel:+33699536022">06 99 53 60 22</a>
   </div>
 </header>
@@ -41,7 +43,7 @@
 <p class="kicker">Devis gratuit, réponse rapide</p>
 <a class="line-item" href="tel:+33699536022"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.57 3.6a1 1 0 0 1-.25 1z"/></svg></span><span class="big">06 99 53 60 22</span></a>
 <a class="line-item" href="mailto:osk.prestige@hotmail.com"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v.5l-10 6.5L2 6.5V6a1 1 0 0 1 1-1zm19 4.2V18a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V9.2l10 6.5z"/></svg></span><span class="mid">osk.prestige@hotmail.com</span></a>
-<p class="area">Intervention à Grenoble et alentours :<br>Grenoble, Échirolles, Saint-Martin-d’Hères, Fontaine, Seyssinet-Pariset, Meylan, Eybens, Saint-Égrève, Sassenage, La Tronche et communes voisines.</p>
+<p class="area"><b>Vallée du Grésivaudan</b> : Crolles, Saint-Ismier, Saint-Nazaire-les-Eymes, Bernin, Biviers, Montbonnot-Saint-Martin, Le Versoud.<br><b>Région grenobloise</b> : Meylan, Claix, Champagnier, Saint-Paul-de-Varces, Jarrie, Bresson, Corenc, La Tronche, Seyssins, Saint-Égrève, Sassenage, Grenoble, Échirolles, Saint-Martin-d’Hères, Seyssinet-Pariset, Eybens.<br>Et les communes voisines, sur demande.</p>
 </div>
 <form class="form" id="devis" novalidate>
 <div class="row">
@@ -82,7 +84,7 @@
       </div>
       <div>
         <h2>Zone d’intervention</h2>
-        <ul><li>Grenoble</li><li>Échirolles</li><li>Saint-Martin-d’Hères</li><li>Fontaine</li><li>Seyssinet-Pariset</li><li><a href="contact.html">Et alentours…</a></li></ul>
+        <ul><li>Crolles</li><li>Saint-Ismier</li><li>Saint-Nazaire-les-Eymes</li><li>Meylan</li><li>Claix</li><li>Grenoble</li><li><a href="contact.html">Et alentours…</a></li></ul>
       </div>
     </div>
     <p class="copy">© 2026 O.S.K Prestige – Grenoble et alentours · <a href="a-propos.html">À propos</a> · <a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a></p>
