@@ -150,6 +150,7 @@ footer p{margin:0 0 8px;color:#c9d3ea;font-size:15px}
 .box p.zone{margin:14px 0 0;font-weight:700;color:var(--ink)}
 .box h3+p.zone{margin-top:8px}
 .area b{color:#fff}
+.hours{margin:-8px 0 20px 68px;color:#d4dcee;font-size:15px}
 .callbar{display:none}
 @media (max-width:900px){
   header .wrap{flex-wrap:wrap;min-height:66px}
