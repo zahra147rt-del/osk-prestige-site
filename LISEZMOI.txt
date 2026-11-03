@@ -7,10 +7,10 @@ crédit d'impôt, à propos / questions fréquentes, contact, mentions légales.
 
 1) À FAIRE AVANT LA MISE EN LIGNE
 ---------------------------------
-a. Nom de domaine : le site utilise l'adresse provisoire  https://www.osk-prestige.fr
+a. Nom de domaine : le site utilise l'adresse provisoire  https://www.osk-prestige.com
    Si le vrai domaine est différent, remplacez-la dans tous les fichiers .html, sitemap.xml
    et robots.txt (rechercher / remplacer dans un éditeur de texte).
-   Sur Mac/Linux :  sed -i 's#https://www.osk-prestige.fr#https://VOTRE-DOMAINE#g' *.html *.xml *.txt
+   Sur Mac/Linux :  sed -i 's#https://www.osk-prestige.com#https://VOTRE-DOMAINE#g' *.html *.xml *.txt
 
 b. Mentions légales (mentions-legales.html) : compléter les zones « À COMPLÉTER »
    (forme juridique, adresse, SIRET, hébergeur, responsable). Puis retirer la ligne

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.osk-prestige.fr/sitemap.xml
+Sitemap: https://www.osk-prestige.com/sitemap.xml
