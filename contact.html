@@ -51,6 +51,8 @@
 <div><label for="nom">Votre nom</label><input id="nom" name="nom" autocomplete="name" required></div>
 <div><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" required></div>
 </div>
+<label for="email">E-mail <span style="font-weight:400">(facultatif)</span></label>
+<input id="email" name="email" type="email" autocomplete="email">
 <label for="besoin">Votre besoin</label>
 <select id="besoin" name="besoin">
 <option>Ménage à domicile</option>
@@ -62,8 +64,10 @@
 </select>
 <label for="msg">Message</label>
 <textarea id="msg" name="msg" placeholder="Commune, fréquence souhaitée, précisions…"></textarea>
+<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+<p id="devis-statut" class="statut" role="status" aria-live="polite"></p>
 <button class="btn fill" type="submit">Envoyer ma demande</button>
-<small>Ce bouton ouvre votre messagerie avec le message prêt à envoyer.</small>
+<small>Vos informations servent uniquement à répondre à votre demande. <a href="mentions-legales.html">En savoir plus</a></small>
 </form>
 </div></section>
 </main>

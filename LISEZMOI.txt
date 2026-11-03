@@ -28,10 +28,16 @@ d. Crédit d'impôt : à n'afficher que si l'entreprise est bien déclarée « s
 Le site est statique : un hébergement simple suffit (OVH, Netlify, Cloudflare Pages, GitHub Pages...).
 Envoyez tout le contenu du dossier à la racine du site (index.html doit être à la racine).
 
-3) FORMULAIRE
--------------
-Le bouton du formulaire ouvre la messagerie du visiteur avec un e-mail pré-rempli.
-Pour recevoir les demandes directement, on peut le brancher sur un service de formulaire.
+3) FORMULAIRE : RECEVOIR LES DEMANDES PAR E-MAIL
+------------------------------------------------
+Le formulaire utilise le service gratuit Web3Forms (250 envois par mois, sans compte).
+a. Allez sur https://web3forms.com, saisissez osk.prestige@hotmail.com : une clé d'accès arrive par e-mail.
+b. Ouvrez script.js, repérez la ligne   var KEY = "VOTRE_CLE_WEB3FORMS";
+   et remplacez VOTRE_CLE_WEB3FORMS par votre clé (garder les guillemets).
+c. Enregistrez, puis Valider + Synchroniser dans VS Code.
+d. Testez en envoyant une demande depuis le site. Les premiers e-mails peuvent arriver dans les
+   courriers indésirables de Hotmail : marquez-les « Courrier légitime ».
+Tant que la clé n'est pas renseignée, le formulaire ouvre simplement la messagerie du visiteur.
 
 4) RÉFÉRENCEMENT : LES 5 ÉTAPES APRÈS LA MISE EN LIGNE
 ------------------------------------------------------
