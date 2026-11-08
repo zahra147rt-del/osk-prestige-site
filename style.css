@@ -80,7 +80,7 @@ h3{font-size:19px;line-height:1.3;margin:0 0 8px;font-weight:800}
 .card h3{margin:0}
 .card h3 small{display:block;font-size:15px;font-weight:500;color:var(--muted);margin-top:2px}
 .card p{margin:8px 0 0;color:var(--muted);font-size:15px}
-.more{display:inline-block;margin-top:10px;font-weight:700;font-size:14px;color:var(--goldd)}
+.more{display:inline-block;margin-top:10px;font-weight:700;font-size:14px;color:#7a520b}
 a.card:hover h3{color:var(--goldd)}
 
 .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
@@ -161,6 +161,7 @@ header .btn{white-space:nowrap;flex:none}
   header .btn{display:none}
   .tabs{margin-left:auto}
 }
+footer p a{text-decoration:underline;text-underline-offset:3px}
 .callbar{display:none}
 @media (max-width:900px){
   header .wrap{flex-wrap:wrap;min-height:66px}
